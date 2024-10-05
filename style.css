@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.navbar .logo h1{
+    padding-left: 30px;
+    color: white;
+}
+.navbar .logo a{
+    text-decoration: none;
+}
+
+.nav-list{
+    padding-right: 80px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 20px;
+}
+.heading{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 18rem;
+}
+
+/*-----------about----------------*/
+.about{
+    width: 100%;
+    min-height: 90vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/banner2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.abouthead{
+    color: rgb(36, 36, 36);
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 4vh;
+}
+.about{
+    text-align: center;
+    padding: 0 270px;
+}
+.about p{
+    color: rgb(236, 236, 236);
+    font-size: 28px;
+    background-color:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+/*----------Family Info----------*/
+
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(195, 195, 196);
+}
+.family{
+    background-color: rgb(195, 195, 196);
+    padding-bottom: 130px;
+}
+.fhaed{
+    font-size: 3.5vw;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 4vh;
+}
+.family-pics{
+    display: flex;
+    align-items: center;
+}
+
+.frame img{
+    width: 100%;
+    border-radius: 5%;
+    padding:0 30px;
+
+}
+.family-pics h3{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.family-pics p{
+    padding-top: 5px;
+    font-size: 17px;
+    color: rgb(43, 43, 43);
+    text-align: center;
+}
+
+/*-------crew info---------*/
+.crew{
+    background-color: rgb(255, 255, 255);
+    padding-top: 110px;
+}
+.crewhead{
+    font-size: 3.5vw;
+    text-align: center;
+    padding-bottom: 9vh;
+    
+}
+.crewpics{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 50px;
+    padding: 0 70px 180px 70px;
+}
+.memberinfo img{
+    width: 100%;
+    border-radius: 6%;
+}
+.memberinfo{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+/*----------Gears----------*/
+.gears{
+    padding-bottom: 10rem;
+}
+.gearhead{
+    font-size: 3.5vw;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 3vh;
+}
+.gearinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gearinfo .geardetails img{
+    width: 100%;
+    padding: 30px;
+    border-radius: 10%;
+}
+.geardetails p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 560;
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(243, 243, 243);
+}
